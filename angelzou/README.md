@@ -47,6 +47,7 @@
             /* End Footer */
         
         (三)id的命名:
+
             (1)页面结构
             容器: container
             页头：header
@@ -60,6 +61,7 @@
             左右中：left right center
     
         (2)导航
+
             导航：nav
             主导航：mainbav
             子导航：subnav
@@ -73,6 +75,7 @@
             摘要: summary
         
         (3)功能
+
             标志：logo
             广告：banner
             登陆：login

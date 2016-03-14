@@ -5,6 +5,11 @@
 
 > 希望每个人都参与进来，共同进步
 
+###规范文档
+请看百度FEX团队整理的规范文档：
+[fex-team/styleguide](https://github.com/fex-team/styleguide/blob/master/project.md)
+
+
 ###一、任务1的目录说明
 * 项目的初始目录如下所示：
 
