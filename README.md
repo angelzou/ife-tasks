@@ -1,16 +1,15 @@
-##IFE 任务1说明
+## IFE 任务1说明
 
 
 > 任务地址：[http://ife.baidu.com/task/all](http://ife.baidu.com/task/all)
 
 > 希望每个人都参与进来，共同进步
 
-###规范文档
+### 规范文档
 请看百度FEX团队整理的规范文档：
 [fex-team/styleguide](https://github.com/fex-team/styleguide/blob/master/project.md)
 
-
-###一、任务1的目录说明
+### 一、任务1的目录说明
 * 项目的初始目录如下所示：
 
 	![directory structure](img/directory-structure.png)
@@ -23,7 +22,7 @@
 	二级目录中的文件结构如下图所示：   
 	![two-level-directory](img/two-level-directory.png)
 	
-###二、团队伙伴们
+### 二、团队伙伴们
 
 * [小白](https://github.com/Geo-Fzu)
 * [dmax](https://github.com/dmax666)
@@ -31,6 +30,95 @@
 * [PT](https://github.com/PTKGEM)
 * [我是小鬼](https://github.com/angelzou)
 
-###三、demo地址
+### 三、Github & BitBucket HTML Preview
+暂时使用Github & BitBucket HTML Preview 生成demo页面预览，地址如下：   
+[https://htmlpreview.github.io/](https://htmlpreview.github.io/)     
+![html preview](img/html-preview.png)    
+
+比如我输入： https://github.com/angelzou/ife-tasks-1/blob/master/angelzou/1-html-structure-learn.html  
+生成的链接为： https://htmlpreview.github.io/?https://github.com/angelzou/ife-tasks-1/blob/master/angelzou/1-html-structure-learn.html    
+然后在项目根目录的**index.html**文件中，将做好的demo加入其中。
+
+### 四、demo地址
+[IFE 第一阶段任务](https://htmlpreview.github.io/?https://github.com/angelzou/ife-tasks-1/blob/master/index.html)
 
 
+### TODO
+**任务地址：**[百度前端技术学院](http://ife.baidu.com/task/all)   
+
+- [ ] 任务一，零基础HTML编码 
+	- [x] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务二，零基础HTML及CSS编码 
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务四，定位和居中问题
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务五，零基础HTML和CSS编码（二）
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务六，通过HTML及CSS模拟报纸排版
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务七，实现常见的技术产品官网的页面架构
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务八，响应式网格（栅格化）布局
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务九，使用HTML/CSS实现一个复杂页面
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务十，Flexbox布局练习
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务十一，移动WEB页面布局实践
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
+
+- [ ] 任务十二，学习CSS3新特性
+	- [ ] 我是小鬼
+	- [ ] 小白
+	- [ ] 茶色
+	- [ ] PT
+	- [ ] dmax
