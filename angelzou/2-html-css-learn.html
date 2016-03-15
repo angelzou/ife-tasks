@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta author="angelzou">
-    <title>HTML&CSS基础练习</title>
+    <title>HTML基础练习</title>
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
     <!--Header-->
-    <div class="header">
-        <img src="img/logo.gif" alt="">
-        <div class="navigation">
-            <ul>
+    <div class="header clearfix wrapper">
+        <div class="navigation-box fr">
+            <ul class="nav clearfix">
                 <li><a href="">导航链接一</a></li>
                 <li><a href="">导航链接二</a></li>
                 <li><a href="">导航链接三</a></li>
                 <li><a href="">导航链接四</a></li>
             </ul>
         </div>
+        <img class="logo fl" src="img/logo.gif" alt="">
     </div>
     <!--END Header-->
     <!--Content-->
-    <div class="container">
+    <div class="container wrapper">
         <div class="article-list">
             <div class="article-item">
-                <h2 class="article-title">文章一级标题</h2>
-                <h3 class="article-sub-title">文章二级标题</h3>
+                <h1 class="article-title">文章一级标题</h1>
+                <h2 class="article-sub-title">文章二级标题</h2>
                 <div class="article-info">
                     <span class="author">文章作者</span>
                     <span class="publish-time">文章发表时间</span>
@@ -36,12 +37,12 @@
                 </div>
             </div>
             <div class="article-item">
-                <h2 class="article-title">另一篇文章一级标题</h2>
-                <h3 class="article-sub-title">文章二级标题</h3>
+                <h1 class="article-title">另一篇文章一级标题</h1>
+                <h2 class="article-sub-title">文章二级标题</h2>
                 <div class="article-info">
                     <span class="author">文章作者</span>
                     <span class="publish-time">文章发表时间</span>
-                
+                </div>
                 <div class="article-content">
                     <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br>换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>,这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
                     <img src="./img/nothing.png" alt="nothing">
@@ -50,30 +51,30 @@
                         <li>列表项目二</li>
                         <li>列表项目三</li>
                     </ul>
-                </div>
+                 </div>
             </div>
             <div class="article-item">
-                <h2>图片</h2>
+                <h1>图片</h1>
                 <dl>
                     <dd>好看的图片</dd>
-                    <dd> <img src="./img/nothing.png" alt="nothing"></dd>
-                    <dd>好看的图片</dd>
-                    <dd> <img src="./img/nothing.png" alt="nothing"></dd>
-                    <dd>好看的图片</dd>
-                    <dd> <img src="./img/nothing.png" alt="nothing"></dd>
-                    <dd>好看的图片</dd>
-                    <dd> <img src="./img/nothing.png" alt="nothing"></dd>
-                    <dd>好看的图片</dd>
-                    <dd> <img src="./img/nothing.png" alt="nothing"></dd>
-                    <dd>好看的图片</dd>
-                    <dd> <img src="./img/nothing.png" alt="nothing"></dd>
-                    <dd>好看的图片</dd>
-                    <dd> <img src="./img/nothing.png" alt="nothing"></dd>
-                    <dd>好看的图片</dd>
-                    <dd> <img src="./img/nothing.png" alt="nothing"></dd>
-                    <dd>好看的图片</dd>
-                    <dd> <img src="./img/nothing.png" alt="nothing"></dd>
-                    <dd>好看的图片</dd>
+                    <dd> <img src="./img/nothing.png" alt="nothing"></dd></dl>
+                <dl><dd>好看的图片</dd>
+                    <dd> <img src="./img/nothing.png" alt="nothing"></dd></dl>
+                <dl><dd>好看的图片</dd>
+                    <dd> <img src="./img/nothing.png" alt="nothing"></dd></dl>
+                <dl><dd>好看的图片</dd>
+                    <dd> <img src="./img/nothing.png" alt="nothing"></dd></dl>
+                <dl><dd>好看的图片</dd>
+                    <dd> <img src="./img/nothing.png" alt="nothing"></dd></dl>
+                <dl><dd>好看的图片</dd>
+                    <dd> <img src="./img/nothing.png" alt="nothing"></dd></dl>
+                <dl><dd>好看的图片</dd>
+                    <dd> <img src="./img/nothing.png" alt="nothing"></dd></dl>
+                <dl><dd>好看的图片</dd>
+                    <dd> <img src="./img/nothing.png" alt="nothing"></dd></dl>
+                <dl><dd>好看的图片</dd>
+                    <dd> <img src="./img/nothing.png" alt="nothing"></dd></dl>
+                <dl><dd>好看的图片</dd>
                     <dd> <img src="./img/nothing.png" alt="nothing"></dd>
                 </dl>
             </div>
@@ -90,8 +91,8 @@
                         <li>排名2</li>
                         <li>排名3</li>
                     </ol>
-                    下面是一个表格，給表格加了一个border=“1”，好让你看出是一个表格
-                    <table border="1">
+                    <p>下面是一个表格，給表格加了一个border=“1”，好让你看出是一个表格</p>
+                    <table >
                         <tr>
                             <th>表头</th>
                             <th>表头</th>
@@ -126,8 +127,7 @@
             </div>
         </div>
         <div class="sidebar">
-            <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-            <h3>侧栏注册窗口标题</h3>
+            <h2 class="sidebar-title">这里以后是一个侧栏，这是侧栏的标题</h2>
             <form id="register" method="post" action="">
                 <p class="register-item">
                     <label for="email-address">请输入邮箱地址：</label>
@@ -136,23 +136,23 @@
                 </p>
                 <p class="register-item">
                     <label for="passwd">请输入密码：</label>
-                    <input type="password" id="passwd" name="passwd" placeholder="这是一个文本输入框">
-                    <span class="tips">密码请为6-16位英文数字</span>
+                    <input type="password" id="passwd" name="passwd" placeholder="这是一个文本输入框">   
                 </p>
                 <p class="register-item">
                     <label for="passwd">请重复输入密码：</label>
                     <input type="password" id="re-passwd" name="re-passwd" placeholder="这是一个文本输入框">
+                    <span class="tips">密码请为6-16位英文数字</span>
                 </p>
                 <p class="register-item">
                     <label for="sex">性别：</label>
-                    <input type="radio" id="1" name="sex" value="man" />男
-                    <input type="radio" id="2" name="sex" value="woman" checked />女 
+                    <input type="radio" id="man" name="sex" value="man" />男
+                    <input type="radio" id="woman" name="sex" value="woman" checked />女 
                 </p>
                 <p class="register-item">
                     <label for="city">城市：</label>
                     <select id="city" name="city"> 
-                        <option value="0" selected>北京</option> 
-                        <option value="1">武汉</option> 
+                        <option value="0">北京</option> 
+                        <option value="1" selected>武汉</option> 
                         <option value="2" >哈尔滨</option> 
                     </select>
                 </p>
@@ -163,10 +163,10 @@
                     <input name="hobby" type="checkbox" id="science">科学
                 </p>
                 <p class="register-item">
-                    <label for="self-description">个人描述：</label>
-                    <textarea name="" id="self-description" name="self-description" cols="30" rows="3">这是一个多行输入框，输入您的个人描述</textarea>
+                    <label class="v-top" for="self-description">个人描述：</label>
+                    <textarea name="" id="self-description" name="self-description">这是一个多行输入框，输入您的个人描述</textarea>
                 </p>
-                <input type="submit" value="确认提交">
+                <input type="submit" value="确认提交" class="btn-submit">
             </from>
         </div>
     </div>
