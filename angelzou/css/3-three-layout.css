@@ -1,0 +1,98 @@
+html,
+body,
+div,
+h2,
+h3,
+p,
+img {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: "Mircosoft Yahei", sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+}
+body {
+    margin: 20px;
+}
+.wrapper {
+    min-width: 800px;
+}
+.clearfix {
+    clear: both;
+    zoom: 1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.main {
+    padding: 20px;
+    background-color: #eee;
+}
+.main,
+.main .personal-logo,
+.main .team-logo,
+.main .content,
+.main img {
+    border: 1px solid #999;
+}
+.content,
+.personal-logo,
+.team-logo {
+    background-color: #fff;
+}
+.personal-logo img,
+.team-logo img {
+    width: 80px;
+    height: 80px;
+}
+.team-logo img {
+    margin: 20px;
+}
+.content {
+    margin-left: 240px;
+    margin-right: 160px;
+    padding: 20px;
+}
+.content h2 {
+    margin-bottom: 20px;
+}
+.content p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-indent: 2em;
+}
+.personal-logo {
+    width: 120px;
+    font-size: 0px;
+    word-spacing: 0px;
+    letter-spacing: -2px;
+}
+.personal-logo img {
+    display: block;
+    margin: 20px;
+}
+.personal-logo img:last-child {
+    margin-bottom: 20px;
+}
+.team-logo {
+    width: 200px;
+}
+.team-name {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding-top: 20px;
+    vertical-align: top
+}
+
