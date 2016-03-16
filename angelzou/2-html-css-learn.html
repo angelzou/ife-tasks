@@ -130,26 +130,30 @@
             <h2 class="sidebar-title">这里以后是一个侧栏，这是侧栏的标题</h2>
             <form id="register" method="post" action="">
                 <p class="register-item">
-                    <label for="email-address">请输入邮箱地址：</label>
+                    <label for="email-address" class="left-description">请输入邮箱地址：</label>
                     <input id="email-address" name="email-address" type="text" placeholder="这是一个文本输入框">
                     <span class="tips">邮箱地址请按要求格式输入</span>
                 </p>
                 <p class="register-item">
-                    <label for="passwd">请输入密码：</label>
+                    <label for="passwd" class="left-description">请输入密码：</label>
                     <input type="password" id="passwd" name="passwd" placeholder="这是一个文本输入框">   
                 </p>
                 <p class="register-item">
-                    <label for="passwd">请重复输入密码：</label>
+                    <label for="passwd" class="left-description">请重复输入密码：</label>
                     <input type="password" id="re-passwd" name="re-passwd" placeholder="这是一个文本输入框">
                     <span class="tips">密码请为6-16位英文数字</span>
                 </p>
                 <p class="register-item">
-                    <label for="sex">性别：</label>
-                    <input type="radio" id="man" name="sex" value="man" />男
-                    <input type="radio" id="woman" name="sex" value="woman" checked />女 
+                    <label for="sex" class="left-description">性别：</label>
+                    <label>
+                        <input type="radio" id="man" name="sex" value="man" />男
+                    </label>
+                    <label>
+                        <input type="radio" id="woman" name="sex" value="woman" checked />女 
+                    </label>
                 </p>
                 <p class="register-item">
-                    <label for="city">城市：</label>
+                    <label for="city" class="left-description">城市：</label>
                     <select id="city" name="city"> 
                         <option value="0">北京</option> 
                         <option value="1" selected>武汉</option> 
@@ -157,13 +161,14 @@
                     </select>
                 </p>
                 <p class="register-item">
-                    <label for="hobby">爱好：</label>
-                    <input name="hobby" type="checkbox" id="sport">运动
-                    <input name="hobby" type="checkbox" id="art">艺术
-                    <input name="hobby" type="checkbox" id="science">科学
+                    <label for="hobby" class="left-description">爱好：</label>
+                    <label><input name="hobby" type="checkbox" value="0" id="sport">运动</label>
+                    <label><input name="hobby" type="checkbox" value="1"
+                    id="art">艺术</label>
+                    <label><input name="hobby" type="checkbox" value="2" id="science">科学</label>
                 </p>
                 <p class="register-item">
-                    <label class="v-top" for="self-description">个人描述：</label>
+                    <label class="left-description v-top" for="self-description">个人描述：</label>
                     <textarea name="" id="self-description" name="self-description">这是一个多行输入框，输入您的个人描述</textarea>
                 </p>
                 <input type="submit" value="确认提交" class="btn-submit">

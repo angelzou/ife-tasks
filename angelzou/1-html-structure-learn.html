@@ -137,16 +137,20 @@
                 <p class="register-item">
                     <label for="passwd">请输入密码：</label>
                     <input type="password" id="passwd" name="passwd" placeholder="这是一个文本输入框">
-                    <span class="tips">密码请为6-16位英文数字</span>
                 </p>
                 <p class="register-item">
                     <label for="passwd">请重复输入密码：</label>
                     <input type="password" id="re-passwd" name="re-passwd" placeholder="这是一个文本输入框">
+                    <span class="tips">密码请为6-16位英文数字</span>
                 </p>
                 <p class="register-item">
                     <label for="sex">性别：</label>
-                    <input type="radio" id="1" name="sex" value="man" />男
-                    <input type="radio" id="2" name="sex" value="woman" checked />女 
+                    <label>
+                        <input type="radio" id="man" name="sex" value="man" />男
+                    </label>
+                    <label>
+                        <input type="radio" id="woman" name="sex" value="woman" checked />女 
+                    </label>
                 </p>
                 <p class="register-item">
                     <label for="city">城市：</label>
@@ -158,9 +162,10 @@
                 </p>
                 <p class="register-item">
                     <label for="hobby">爱好：</label>
-                    <input name="hobby" type="checkbox" id="sport">运动
-                    <input name="hobby" type="checkbox" id="art">艺术
-                    <input name="hobby" type="checkbox" id="science">科学
+                    <label><input name="hobby" type="checkbox" value="0" id="sport">运动</label>
+                    <label><input name="hobby" type="checkbox" value="1"
+                    id="art">艺术</label>
+                    <label><input name="hobby" type="checkbox" value="2" id="science">科学</label>
                 </p>
                 <p class="register-item">
                     <label for="self-description">个人描述：</label>

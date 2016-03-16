@@ -148,7 +148,7 @@ body {
     font-size: 18px;
     border-left: 3px solid #ccc;
 }
-#register label {
+#register .left-description {
     display: inline-block;
     min-width: 30%;
     text-align: right;
