@@ -26,6 +26,7 @@ body {
 .wrapper {
     margin: 20px;
     padding: 20px;
+    overflow: auto;
     background-color: #eeeeee;
     border: 1px #999999 solid;
 }
