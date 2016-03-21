@@ -1,0 +1,80 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+div,
+ul,
+ol,
+p,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+.wrapper {
+    margin: 20px;
+    padding: 20px;
+    background-color: #eeeeee;
+    border: 1px #999999 solid;
+}
+
+.content-wrapper {
+    float: left;
+    margin-left: 220px;
+    margin-right: 140px;
+    background-color: #ffffff;
+    border: 1px #999999 solid;
+}
+
+.content {
+    padding: 20px;
+}
+
+.team-logo {
+    float: left;
+    margin-left: -100%;
+    padding: 20px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px #999999 solid;
+}
+
+.team-logo > img {
+    width: 80px;
+    height: 80px;
+    border: 1px #999999 solid;
+}
+
+.team-logo > h3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.personal-logo {
+    float: left;
+    margin-left: -120px;
+    padding: 20px;
+    width: 120px;
+    background-color: #ffffff;
+    border: 1px #999999 solid;
+}
+
+.personal-logo > img {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}

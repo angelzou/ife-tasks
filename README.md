@@ -62,7 +62,7 @@
 
 - [ ] 任务三，三栏式布局
 	- [x] 我是小鬼 （注意IE7下，display:inline-block问题；注意IE7下，浮动产生的双倍padding、margin问题）
-	- [ ] 小白
+	- [x] 小白
 	- [ ] 茶色
 	- [ ] PT
 	- [ ] dmax
