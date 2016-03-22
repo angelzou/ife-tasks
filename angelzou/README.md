@@ -105,4 +105,6 @@
             友情链接：link
             版权：copyright
 
+2. [flex布局基础讲解](http://www.w3cplus.com/css3/a-guide-to-flexbox.html)
+
 
