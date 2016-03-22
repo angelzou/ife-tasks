@@ -1,4 +1,4 @@
-## IFE 任务1说明
+﻿## IFE 任务1说明
 
 
 > 任务地址：[http://ife.baidu.com/task/all](http://ife.baidu.com/task/all)
@@ -49,7 +49,7 @@
 - [ ] 任务一，零基础HTML编码 
 	- [x] 我是小鬼
 	- [x] 小白
-	- [ ] 茶色
+	- [x] 茶色
 	- [ ] PT
 	- [ ] dmax
 
