@@ -1,0 +1,148 @@
+section {
+    display: block;
+    margin-bottom: 20px;
+}
+/*---表格---*/
+.table {
+    border-collapse: collapse;
+}
+.table td,
+.table th {
+    text-align: left;
+    border: 2px solid #fff;
+}
+.table > thead > tr {
+    color: #fff;
+    background-color: #000;
+}
+.table > tbody > tr:nth-child(-n+3) {
+    color: #f00;
+}
+.table > tbody > tr:nth-child(even) {
+    background-color: #eee;
+}
+/*---input文本输入框---*/
+input[type='text'] {
+    width: 100px;
+    border: 1px solid #ccc;
+    -webkit-transition: all 1s ease .3s;
+    -moz-transition: all 1s ease .3s;
+    transition: all 1s ease .3s;
+}
+input[type='text']:focus {
+    width: 200px;
+    border: 1px solid #0ff;
+    border-radius: 5px;
+    transform: translateX(200px);
+    -webkit-transition: all 1s ease .3s;
+    -moz-transition: all 1s ease .3s;
+    transition: all 1s ease .3s;
+}
+/*---banner轮播---*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.banner-box {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+.banner-box > .banner-slide {
+    margin: 0;
+    padding: 0;
+    width: 1500px;
+    height: 400px;
+    list-style: none;
+    overflow: hidden;
+    zoom: 1;
+    -webkit-animation:slide-1 5s ease-out infinite;
+    animation: slide-1 5s ease-out infinite;
+}
+.banner-box > .banner-slide > li {
+    float: left;
+    width: 500px;
+    height: 100%;
+    line-height: 400px;
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+}
+.banner-box > .banner-slide > li:nth-child(1) {
+    background-color: #f0f;
+}
+.banner-box > .banner-slide > li:nth-child(2) {
+    background-color: #f00;
+}
+.banner-box > .banner-slide > li:nth-child(3) {
+    background-color: #00f;
+}
+.banner-box > .switch-btn {
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}
+.banner-box > .switch-btn > label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .6)
+}
+.banner-box > .switch-btn > label:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .4)
+}
+#btn-1,
+#btn-2,
+#btn-3 {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#btn-1:checked ~ .banner-box > .banner-slide {
+    -webkit-animation:slide-1 5s ease-out infinite;
+    animation: slide-1 5s ease-out infinite;
+}
+#btn-2:checked ~ .banner-box > .banner-slide {
+    -webkit-animation:slide-2 5s ease-out infinite;
+    animation: slide-2 5s ease-out infinite;
+}
+#btn-3:checked ~ .banner-box > .banner-slide {
+    -webkit-animation: slide-3 5s ease-out infinite;
+    animation: slide-3 5s ease-out infinite;
+}
+/*动画：Keyframe*/
+@-webkit-keyframes slide-1 {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    33% {margin-left: -500px;}
+    55% {margin-left: -500px;}
+    66% {margin-left: -1000px;}
+    90% {margin-left: -1000px;}
+    100% {margin-left: 0;}
+}
+@-webkit-keyframes slide-2 {
+    0% {margin-left: -500px;}
+    20% {margin-left: -500px;}
+    33% {margin-left: -1000px;}
+    55% {margin-left: -1000px;}
+    66% {margin-left: 0;}
+    90% {margin-left: 0;}
+   100% {margin-left: -500px;}
+}
+@-webkit-keyframes slide-3 {
+    0% {margin-left: -1000px;}
+    20% {margin-left: -1000px;}
+    33% {margin-left: 0;}
+    55% {margin-left: 0;}
+    66% {margin-left: -500px;}
+    90% {margin-left: -500px;}
+    100% {margin-left: -1000px;}
+}

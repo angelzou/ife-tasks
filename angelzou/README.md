@@ -107,4 +107,6 @@
 
 2. [flex布局基础讲解](http://www.w3cplus.com/css3/a-guide-to-flexbox.html)
 
+3. [CSS3 选择器——伪类选择器](http://www.w3cplus.com/css3/pseudo-class-selector)
 
+4. [CSS3 Transition](http://www.w3cplus.com/content/css3-transition)
