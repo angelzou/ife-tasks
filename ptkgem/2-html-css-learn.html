@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<meta name="author" content="PTKGEM" />
-	<title>任务一：零基础HTML编码</title>
+	<meta name="autdor" content="PTKGEM" />
+	<title>任务二：零基础HTML及CSS编码（一）</title>
+	<link rel="stylesheet" type="text/css" href="css/2-html-css-learn.css">
 </head>
 <body>
 	<!-- Header -->
 	<header class="page-header">
-		<h1>网站一级标题</h1>
-		<nav>
-			<ul>
+		<img src="img/logo.png" alt="logo-pic" id="logo" />
+		<nav class="clearfloat">
+			<ul class="clearfloat">
 				<li><a href="">导航链接1</a></li>
 				<li><a href="">导航链接2</a></li>
 				<li><a href="">导航链接3</a></li>
@@ -126,17 +127,14 @@
 			</ol>
 			<span>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</span>
 			<div id="table">
-				<table border="1">
-					<tr>
-						<th>表头</th>
-						<th>表头</th>
-						<th>表头</th>
-					</tr>
-					<tr>
-						<td>表内容单元格</td>
-						<td>表内容单元格</td>
-						<td><a href="#">操作</a></td>
-					</tr>
+				<table>
+					<thead>
+						<tr>
+							<th>表头</th>
+							<th>表头</th>
+							<th>表头</th>
+						</tr>
+					</thead>
 					<tr>
 						<td>表内容单元格</td>
 						<td>表内容单元格</td>
@@ -153,9 +151,16 @@
 						<td><a href="#">操作</a></td>
 					</tr>
 					<tr>
-						<td>总计</td>
-						<td colspan="2">1000</td>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
 					</tr>
+					<tfoot>
+						<tr>
+							<td>总计</td>
+							<td colspan="2">1000</td>
+						</tr>
+					</tfoot>
 				</table>
 			</div>
 			</p>
@@ -164,34 +169,34 @@
 	<!-- END Content -->
 	<!-- aside -->
 	<aside>
-		<header>
+		<header class="asidetitle">
 			这里以后是一个侧栏，这是侧栏的标题
 		</header>
 		<section>
 			<form id="register" action="" metdod="post">
-				<div>
-				    <label for="email">请输入邮箱地址</label>
+				<div class="items">
+				    <label for="email" class="left-desc">请输入邮箱地址</label>
 				    <input type="email" id="email" placeholder="这是一个文本输入框">
-				    <p>邮箱地址请按要求格式输入</p>
+				    <p class="tip">邮箱地址请按要求格式输入</p>
 				</div>
-				<div>
-				    <label for="pwd1">请输入密码</label>
+				<div class="items">
+				    <label for="pwd1" class="left-desc">请输入密码</label>
 				    <input type="password" id="pwd1" placeholder="这是一个文本输入框">		   
 				</div>
-				<div>
-				    <label for="pwd2">请重复输入密码</label>
+				<div class="items">
+				    <label for="pwd2" class="left-desc">请重复输入密码</label>
 				    <input type="password" id="pwd2" placeholder="这是一个文本输入框">
-				    <p>密码请为6-16位英文数字</p>
+				    <p class="tip">密码请为6-16位英文数字</p>
 				</div>
-				<div>
-				    <label for="male">性别</label>
+				<div class="items">
+				    <label for="male" class="left-desc">性别</label>
 				    <input type="radio" name="sex" value="0" id="male" checked="checked">
 				    <label for="male">男</label>
 				    <input type="radio" name="sex" value="1" id="female">
 				    <label for="female">女</label>
 				</div>
-				<div>
-				    <label for="city">城市</label>
+				<div class="items">
+				    <label for="city" class="left-desc">城市</label>
 				    <select name="city" id="city">
 				    	<option value="0">北京</option>
 				    	<option value="1">上海</option>
@@ -199,8 +204,8 @@
 				    	<option value="3">深圳</option>
 				    </select>   
 				</div>
-				<div>
-				    <label for="sport" for="sport">爱好</label>
+				<div class="items">
+				    <label for="sport" class="left-desc" for="sport">爱好</label>
 				    <input type="checkbox" name="sport" id="sport" />
 				    <label for="sport">运动</label>
 				    <input type="checkbox" name="art" id="art" />
@@ -209,10 +214,10 @@
 				    <label for="science">科学</label>  					
 				</div>
 				<div class="items">
-				 	<label for="show">个人描述</label>
+				 	<label for="show" class="left-desc" id="info">个人描述</label>
 					<textarea name="text" id="show"  placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
 				</div>
-					<input type="submit" value="确认提交" />
+					<input type="submit" class="submit" value="确认提交" />
 				</div>
 			</form>
 		</section>
@@ -225,3 +230,4 @@
 	<!-- END footer -->
 </body>
 </html>
+
