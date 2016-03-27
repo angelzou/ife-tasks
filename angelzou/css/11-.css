@@ -1,0 +1,229 @@
+header,
+footer,
+main,
+section,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+span,
+img,
+figure,
+figcaption,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: 'STHeiti','Microsoft YaHei',Helvetica,Arial,sans-serif;
+    background-color: #f5f5f5;
+}
+/*--
+ 如果页面中有点阵字体的话，需要使用如下媒体查询固定字体大小
+ https://segmentfault.com/a/1190000003931773
+--*/
+@media screen and (max-width: 320px) {
+    body{font-size: 14px;}
+}
+@media screen and (min-width: 321px) and (max-width: 413px) {
+    body{font-size: 16px;}
+}
+@media screen and (min-width: 414px) and (max-width: 639px) {
+    body{font-size: 17px;}
+}
+@media screen and (min-width: 640px) {
+    body{font-size: 18px;}
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+.header {
+    position: relative;
+}
+.header > h1 {
+    padding: 0.32rem;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #91d4da;
+}
+.header > .go-back {
+    position: absolute;
+    top: 0.32rem;
+    left: 0.32rem;
+    font-size: 20px;
+    color: #fff;
+}
+.header > .nav,
+.header > .nav > ul,
+.header > .nav li {
+    margin-bottom: 0.04rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    text-align: center;
+}
+.header > .nav  li { 
+    width: 1.85rem;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.header > .nav a {
+    color: #666;
+    text-decoration: none;
+}
+.header > .nav li.current {
+    border-bottom: 4px solid #91d4da;
+}
+.header > .nav,
+.container > .banner,
+.container > .tags,
+.container > .subfield,
+.container > .module,
+.container > .article-list {
+    background-color: #fff;
+}
+.container > .banner {
+    font-size: 0;
+}
+.container > .banner > img {
+    width: 10rem;
+    height: 5.46rem;
+}
+.container > .tags {
+    padding: 0.32rem 0;
+    text-align: center;
+}
+.container > .tags > figure {
+    display: inline-block;
+    *display: inline;
+    width: 1.8rem;
+    text-align: center;
+    border-bottom: 2px solid #f5f5f5;
+    zoom: 1;
+}
+.container > .tags img {
+    padding-bottom: 0.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.container > .tags figcaption {
+    padding-bottom: 0.32rem;
+}
+.container > .subfield {
+    padding: 0.3rem 0;
+    margin-bottom: 0.32rem;
+    text-align: center;
+}
+.container > .subfield > figure {
+    display: inline-block;
+    *display: inline;
+    width: 3.2rem;
+    border-left: 2px solid #f5f5f5;
+    zoom: 1;
+}
+.container > .subfield > figure:first-child {
+    border: 0;
+}
+.container > .subfield img {
+    height: 1.8rem;
+}
+.container > .subfield .title {
+    font-size: 18px;
+}
+.container > .subfield .sub-title {
+    color: #555;
+}
+.container > .module {
+    padding: 0 .5rem .32rem .5rem;
+    margin-bottom: 0.32rem;
+}
+.container > .module > h2 {
+    padding: .32rem 0;
+    font-size: 18px;
+    color: #555;
+    border-bottom: 2px solid #f5f5f5;
+}
+.container > .module > .m-content {
+    padding-top: .4rem;
+}
+.container > .module img,
+.container > .module .m-text {
+    height: 2.6rem;
+}
+.container > .module img {
+    float: left;
+}
+.container > .module .m-text {
+    list-style: none;
+}
+.container > .module li {
+    display: inline-block;
+    *display: inline;
+    margin-left: .2rem;
+    margin-bottom: .2rem;
+    width: 2.8rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    background-color: #f5f5f5;
+    zoom: 1;
+}
+.container > .article-list > .item {
+    position: relative;
+    padding: .3rem .5rem;
+    height: 2.3rem;
+    border-bottom: 2px solid #f5f5f5;
+}
+.container > .article-list img {
+    margin-right: .3rem;
+    height: 2.3rem;
+    float: left;
+}
+.container > .article-list h2 {
+    font-size: 18px;
+    color: #555;
+}
+.container > .article-list .article-info {
+    position: absolute;
+    left: 4rem;
+    top: 2rem;
+    font-size: 16px;
+    color: #999;
+}
+.container > .article-list .source {
+    padding-right: .3rem;
+}
+.container > .article-list > .item-last {
+    padding: 0 .5rem;
+}
+.container .item-last > h2 {
+    padding: .32rem 0;
+}
+.container .item-last img {
+    float: none;
+    width: 2.9rem;
+    margin: 0;
+}
+.container .item-last .article-info {
+    position: static;
+    padding: .3rem 0;
+}
+.footer {
+    height: 1.5rem;
+}

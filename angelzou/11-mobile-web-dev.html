@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="keywords" content="mobile web">
+    <meta name="author" content="angelzou">
+    <title>mobile web dev</title>
+    <link rel="stylesheet" type="" href="./css/11-.css">
+    <script>
+        (function () {
+            document.addEventListener('DOMContentLoaded', function () {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                html.style.fontSize = windowWidth / 10 + 'px';
+                // 等价于html.style.fontSize = windowWidth / 1000 * 100 + 'px';
+                // 设计稿的宽度是1000px
+            }, false);
+        })();
+    </script>
+</head>
+<body>
+    <header class="header">
+        <h1>这是标题</h1>
+        <span class="go-back">&lt;返回</span>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">导航</a></li><li class="current">
+                    <a href="#">导航</a></li><li>
+                    <a href="#">导航</a></li><li>
+                    <a href="#">导航</a></li>
+                <li><a href="#">导航</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="banner">
+            <img src="./img/11-3.jpg" alt="">
+        </section>
+        <section class="tags">
+            <figure>
+                <img src="./img/1-7.jpg" alt="">
+                <figcaption>标签</figcaption>
+            </figure><figure>
+                <img src="./img/1-7.jpg" alt="">
+                <figcaption>标签</figcaption>
+            </figure><figure>
+                <img src="./img/1-7.jpg" alt="">
+                <figcaption>标签</figcaption>
+            </figure><figure>
+                <img src="./img/1-7.jpg" alt="">
+                <figcaption>标签</figcaption>
+            </figure><figure>
+                <img src="./img/1-7.jpg" alt="">
+                <figcaption>标签</figcaption>
+            </figure>
+        </section>
+        <section class="subfield">
+            <figure>
+                <img src="./img/11-4.jpg" alt="">
+                <figcaption class="title">分栏一</figcaption>
+                <figcaption class="sub-title">分栏小标题</figcaption>
+            </figure><figure>
+                <img src="./img/11-5.jpg" alt="">
+                <figcaption class="title">分栏二</figcaption>
+                <figcaption class="sub-title">分栏小标题</figcaption>
+            </figure><figure>
+                <img src="./img/11-6.jpg" alt="">
+                <figcaption class="title">分栏三</figcaption>
+                <figcaption class="sub-title">分栏小标题</figcaption>
+            </figure>
+        </section>
+        <section class="module">
+            <h2>模块一</h2>
+            <div class="m-content">
+                <img src="./img/11_2.jpg" alt="">
+                <ul class="m-text">
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                </ul>
+            </div>
+            <div class="m-content">
+                <img src="./img/11_2.jpg" alt="">
+                <ul class="m-text">
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                </ul>
+            </div>
+        </section>
+        <section class="module">
+            <h2>模块二</h2>
+            <div class="m-content clearfix">
+                <img src="./img/11_2.jpg" alt="">
+                <ul class="m-text">
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                </ul>
+            </div>
+            <div class="m-content">
+                <img src="./img/11_2.jpg" alt="">
+                <ul class="m-text">
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                    <li>这是文案</li>
+                </ul>
+            </div>
+        </section>
+        <section class="article-list">
+            <div class="item clearfix">
+                <img src="./img/11_1.jpg" alt="">
+                <h2>这是文章标题字号是22的文章标题</h2>
+                <p class="article-info">
+                    <span class="source">文章来源</span>
+                    <span class="time">6分钟前</span>
+                </p>
+            </div>
+            <div class="item clearfix">
+                <img src="./img/11_1.jpg" alt="">
+                <h2>这是另一个文章标题</h2>
+                <p class="article-info">
+                    <span class="source">文章来源</span>
+                    <span class="time">7分钟前</span>
+                </p>
+            </div>
+            <div class="item-last clearfix">
+                <h2>这是另一个文章标题</h2>
+                <div class="imgs">
+                    <img src="./img/11_1.jpg" alt="">
+                    <img src="./img/11_1.jpg" alt="11_1.jpg">
+                    <img src="./img/11_1.jpg" alt="">
+                </div>
+                <p class="article-info">
+                    <span class="source">文章来源</span>
+                    <span class="time">7分钟前</span>
+                </p>
+            </div>
+        </section>
+    </div>
+    <footer class="footer"></footer>
+</body>
+</html>

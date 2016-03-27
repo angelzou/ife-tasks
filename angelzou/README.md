@@ -110,3 +110,10 @@
 3. [CSS3 选择器——伪类选择器](http://www.w3cplus.com/css3/pseudo-class-selector)
 
 4. [CSS3 Transition](http://www.w3cplus.com/content/css3-transition)
+
+5. 移动WEB开发
+    
+    - [移动资源整理](http://www.cnblogs.com/PeunZhang/p/3407453.html)
+    - [从网易与淘宝的font-size思考前端设计稿与工作流](http://www.codeceo.com/article/font-size-web-design.html)
+    - [使用Flexible实现手淘H5页面的终端适配](https://github.com/amfe/article/issues/17)
+    - [移动端web app自适应布局探索与总结](https://segmentfault.com/a/1190000003931773)
