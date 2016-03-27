@@ -1,4 +1,4 @@
-﻿## IFE 任务1说明
+## IFE 任务1说明
 
 
 > 任务地址：[http://ife.baidu.com/task/all](http://ife.baidu.com/task/all)
@@ -117,7 +117,7 @@
 	- [ ] dmax
 
 - [ ] 任务十一，移动WEB页面布局实践
-	- [ ] 我是小鬼
+	- [x] 我是小鬼
 	- [ ] 小白
 	- [ ] 茶色
 	- [ ] PT
