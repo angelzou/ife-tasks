@@ -38,6 +38,7 @@ a:visited {
 }
 a:hover {
 	color: #FA8414;
+	border-bottom: 2px solid #eee;
 }
 a:active {
 	color: #31E518;
@@ -58,7 +59,7 @@ ul {
 }
 
 #logo {
-	float: left;
+	position: absolute;
 	height: 50px;
 	margin: 5px 30px;
 }
@@ -70,8 +71,14 @@ ul {
 	right: 30px;
 }
 /*清楚浮动*/
-.clearfloat {
-	overflow: hidden;
+.clearfix {
+    clear: both;
+    zoom: 1;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 .page-header ul > li {
